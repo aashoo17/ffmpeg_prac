@@ -1,5 +1,5 @@
-CFLAGS = -I/usr/include/
-all:main
+CFLAGS = -I/usr/include/ -g
+all:demuxing
 	./demuxing && rm demuxing
 demuxing:demuxing.c -lavformat -lavcodec -lavfilter -lavutil
 clean:
