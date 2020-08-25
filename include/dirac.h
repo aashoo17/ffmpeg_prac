@@ -31,7 +31,7 @@
  * @author Jordi Ortiz
  */
 
-#include "avcodec.h"
+#include "../avcodec.h"
 
 /**
  * The spec limits the number of wavelet decompositions to 4 for both

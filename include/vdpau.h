@@ -54,7 +54,7 @@
 #include "libavutil/avconfig.h"
 #include "libavutil/attributes.h"
 
-#include "avcodec.h"
+#include "../avcodec.h"
 #include "version.h"
 
 struct AVCodecContext;
